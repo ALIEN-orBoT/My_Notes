@@ -206,7 +206,7 @@ git init --bare	#remote仓库
 cd ../demo
 >git remote add <name> <url>	#添加远程仓库
 git remote add origin ../remote
->git push <remote> <locak branch>:<remote branch>#同步到远程仓库
+>git push <remote> <local branch>:<remote branch>#同步到远程仓库
 git push origin master:master
 
 #demo2模拟Machine2
